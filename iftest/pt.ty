@@ -1,0 +1,63 @@
+#! usr/bin/env python3
+
+def main():
+    print("PT Time")
+    import random
+    #round= 0
+    def wheel():
+        
+
+        roll= random.randint(1, 10)
+
+
+        print("You rolled a:",roll)
+
+        #round=+ 1 
+
+        if roll == 1:
+            print("10 Pushups")
+
+        elif roll == 2:
+            print("10 situps")
+
+        elif roll == 3:
+             print("10 Jumping Jacks")
+
+        elif roll == 4:
+            print("10 squats")
+
+        elif roll == 5:
+            print("10 lunges")
+
+        elif roll == 6:
+            print("10 Burpees")
+
+        elif roll == 7:
+            print("10 Mountain Climbers")
+
+        elif roll == 8:
+            print("10 High Knees")
+
+        elif roll == 9:
+            print("10 8-count bodyduilders")
+
+        elif roll == 10:
+            print("Take a break")
+
+        print("Do you wish to roll again?")
+        repeat_rolling=input()
+        if repeat_rolling ==("y" or "yes") in input().lower():
+            wheel() 
+        
+    wheel()
+
+
+
+    
+    
+     
+
+
+
+if __name__ == '__main__':
+    main()
